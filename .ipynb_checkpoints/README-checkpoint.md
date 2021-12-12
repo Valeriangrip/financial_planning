@@ -32,9 +32,7 @@ df_portfolio = alpaca.get_barset(
 
 run calculations to get this pie chart
 ```
-![Crypto vs Shares Chart (/pie.png)
-
-
+![Crypto vs Shares Chart](/pie.png)
 
 ```
 Setup a monte carlo simulation for 30 years
@@ -45,4 +43,4 @@ MC_dist = MCSimulation(
     num_trading_days = 252*30
 )
 ```
-![Monte Carlo Simulation 30 years (/cum.png)
+![Monte Carlo Simulation 30 years](/cum.png)
