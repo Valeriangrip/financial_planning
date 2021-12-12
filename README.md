@@ -45,4 +45,4 @@ MC_dist = MCSimulation(
     num_trading_days = 252*30
 )
 ```
-![Crypto vs Shares Chart (/cum.png)
+![Monte Carlo Simulation 30 years (/cum.png)
